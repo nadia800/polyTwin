@@ -1,0 +1,24 @@
+.profile {
+    background-color: #C4C4C4;
+    height: 91.4vh;
+    width: 100%;
+    padding-top: 20px;
+
+    &__box {
+        width: 700px;
+        height: 520px;
+        border: 2px hidden;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 5px;
+
+        &__title {
+            font-size: 30px;
+            height: 60px;
+            background-color: #4ABED9;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+}

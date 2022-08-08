@@ -1,0 +1,46 @@
+.dataExports {
+    background-color: #C4C4C4;
+    width: 100%;
+    padding-top: 60px;
+    min-height: 100vh;
+
+
+    &__box {
+        width: 1110px;
+        height: 550px;
+        border: 2px hidden;
+        margin-left: 180px;
+        background-color: #fff;
+        border-radius: 5px;
+
+        &__title {
+            font-size: 30px;
+            height: 60px;
+            background-color: #4ABED9;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        &__label {
+            padding-left: 20px;
+            font-size: 15px;
+            padding-top: 5px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        &__input {
+            width: 223px;
+            height: 40px;
+            margin-left: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        &__add {
+            margin-left: 5px;
+            color: green;
+            font-family: 'Rubik', sans-serif;
+        }
+    }
+}

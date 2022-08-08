@@ -1,0 +1,4 @@
+export const ADDREALM_SUCCESS = "ADDREALM_SUCCESS";
+export const ADDREALM_FAIL = "ADDREALM_FAIL";
+export const SET_MESSAGE = "SET_MESSAGE";
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";

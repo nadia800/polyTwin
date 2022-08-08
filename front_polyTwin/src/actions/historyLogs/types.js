@@ -1,0 +1,4 @@
+export const GETLOGS_SUCCESS = "GETLOGS_SUCCESS";
+export const GETLOGS_FAIL = "GETLOGS_FAIL";
+export const SET_MESSAGE = "SET_MESSAGE";
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";

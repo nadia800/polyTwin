@@ -1,0 +1,38 @@
+.leftSide {
+
+    &__logo {
+        width: 200px;
+        height: 150px;
+        margin-left: 270px;
+        margin-top: 20px;
+    }
+
+    &__welcome {
+        font-size: 20px;
+        margin-left: 320px;
+        margin-top: 10px;
+        color: #4ABED9;
+        font-weight: bold;
+    }
+
+    &__title {
+        margin-left: 180px;
+        color: #4ABED9;
+        font-weight: bold;
+    }
+
+    &__image {
+        width: 600px;
+        height: 350px;
+        margin-left: 100px;
+    }
+
+    &__copyright {
+        margin-left: 150px;
+        font-size: 15px;
+    }
+
+    &__frame {
+        margin-left: 250px;
+    }
+}

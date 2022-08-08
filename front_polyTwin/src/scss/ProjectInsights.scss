@@ -1,0 +1,91 @@
+.ProjectInsight {
+    background-color: #C4C4C4;
+    //width: 100%;
+    padding-top: 45px;
+    //height: 100%;
+    min-height: 100vh;
+
+    &__project {
+        width: 260px;
+        height: 360px;
+        border: 2px hidden;
+        margin-left: 45px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    &__chart {
+        &__div {
+        }
+        display: flex
+    }
+
+    &__title {
+        font-size: 30px;
+        height: 60px;
+        background-color: #4ABED9;
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    &__chartList {
+        height: 100px;
+        width: 200px;
+        overflow: auto;
+        margin-left: 20px;
+        text-align: justify;
+        border: 2px solid #C4C4C4;
+
+        &__name {
+            flex: 3;
+            margin-left: 10px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        &__box {
+            border: 1px solid #C4C4C4;
+            display: flex;
+        }
+    }
+
+
+
+    &__categorie {
+
+        &__label {
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        &__input {
+            width: 200px;
+            margin-left: 20px;
+            margin-bottom: 3px;
+            border-radius: 5px;
+            background-color: #ecf0f3;
+        }
+    }
+
+    &__footer {
+        margin-left: 75px;
+        margin-top: 5px;
+
+        &__label {
+            font-size: 13px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        &__button {
+            height: 35px;
+            width: 100px;
+            margin-top: 2px;
+            margin-left: 10px;
+            background-color: #4ABED9;
+            border-radius: 10px;
+            border: 1px none;
+            color: white;
+        }
+    }
+}
